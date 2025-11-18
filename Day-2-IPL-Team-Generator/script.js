@@ -18,19 +18,18 @@ let cn = document.querySelector('#cn');
 let tp = document.querySelector('span');
 let btn = document.querySelector('button');
 
-// btn.innerHTML = "jjj"
 
-btn.addEventListener('click', function(){
-    let winner = arr[Math.floor(Math.random()*arr.length)];
+btn.addEventListener('click', function () {
+    let winner = arr[Math.floor(Math.random() * arr.length)];
 
     let c1 = winner.primary
     let c2 = winner.secondary
 
-    tn.innerHTML = winner.team ;
-    fln.innerHTML = winner.fullname ;
-    cn.innerHTML = winner.captain ;
-    tp.innerHTML = winner.trophies ;
+    tn.innerHTML = winner.team;
+    fln.innerHTML = winner.fullname;
+    cn.innerHTML = winner.captain;
+    tp.innerHTML = winner.trophies;
 
     bd.style.background = `linear-gradient(${c1}, ${c2})`
-    
-})
+
+});
