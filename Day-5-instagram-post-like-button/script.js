@@ -39,7 +39,7 @@ bkm.addEventListener('click', () => {
 });
 
 bkm.addEventListener('dblclick', () => {
-    bkm.classList.remove('ri-bookmark-fill', 'ri-bookmark-line');
+    bkm.classList.replace('ri-bookmark-fill', 'ri-bookmark-line');
 });
 
 post.addEventListener('dblclick', () => {
