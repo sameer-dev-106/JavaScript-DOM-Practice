@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="piano">
+        <div class="keys-container">
+            <div class="key white" data-key="KeyQ" data-note="C1">
+                <div class="key-label">Q</div>
+                <div class="key-note">C1</div>
+            </div>
+            <div class="key white" data-key="KeyW" data-note="D1">
+                <div class="key-label">W</div>
+                <div class="key-note">D1</div>
+            </div>
+            <div class="key white" data-key="KeyE" data-note="E1">
+                <div class="key-label">E</div>
+                <div class="key-note">E1</div>
+            </div>
+            <div class="key white" data-key="KeyR" data-note="F1">
+                <div class="key-label">R</div>
+                <div class="key-note">F1</div>
+            </div>
+            <div class="key white" data-key="KeyT" data-note="G1">
+                <div class="key-label">T</div>
+                <div class="key-note">G1</div>
+            </div>
+            <div class="key white" data-key="KeyY" data-note="A1">
+                <div class="key-label">Y</div>
+                <div class="key-note">A1</div>
+            </div>
+            <div class="key white" data-key="KeyU" data-note="B1">
+                <div class="key-label">U</div>
+                <div class="key-note">B1</div>
+            </div>
+            <div class="key white" data-key="KeyZ" data-note="C2">
+                <div class="key-label">Z</div>
+                <div class="key-note">C2</div>
+            </div>
+            <div class="key white" data-key="KeyX" data-note="D2">
+                <div class="key-label">X</div>
+                <div class="key-note">D2</div>
+            </div>
+            <div class="key white" data-key="KeyC" data-note="E2">
+                <div class="key-label">C</div>
+                <div class="key-note">E2</div>
+            </div>
+            <div class="key white" data-key="KeyV" data-note="F2">
+                <div class="key-label">V</div>
+                <div class="key-note">F2</div>
+            </div>
+            <div class="key white" data-key="KeyB" data-note="G2">
+                <div class="key-label">B</div>
+                <div class="key-note">G2</div>
+            </div>
+            <div class="key white" data-key="KeyN" data-note="A2">
+                <div class="key-label">N</div>
+                <div class="key-note">A2</div>
+            </div>
+            <div class="key white" data-key="KeyM" data-note="B2">
+                <div class="key-label">M</div>
+                <div class="key-note">B2</div>
+            </div>
+            <div class="key white" data-key="KeyA" data-note="C3">
+                <div class="key-label">A</div>
+                <div class="key-note">C3</div>
+            </div>
+            <div class="key white" data-key="KeyS" data-note="D3">
+                <div class="key-label">S</div>
+                <div class="key-note">D3</div>
+            </div>
+            <div class="key white" data-key="KeyD" data-note="E3">
+                <div class="key-label">D</div>
+                <div class="key-note">E3</div>
+            </div>
+            <div class="key white" data-key="KeyF" data-note="F3">
+                <div class="key-label">F</div>
+                <div class="key-note">F3</div>
+            </div>
+            <div class="key white" data-key="KeyG" data-note="G3">
+                <div class="key-label">G</div>
+                <div class="key-note">G3</div>
+            </div>
+            <div class="key white" data-key="KeyH" data-note="A3">
+                <div class="key-label">H</div>
+                <div class="key-note">A3</div>
+            </div>
+            <div class="key white" data-key="KeyJ" data-note="B3">
+                <div class="key-label">J</div>
+                <div class="key-note">B3</div>
+            </div>
+            <div class="key white" data-key="KeyK" data-note="C4">
+                <div class="key-label">K</div>
+                <div class="key-note">C4</div>
+            </div>
+            <div class="key black" data-key="Digit1" data-note="C#1">
+                <div class="key-label">1</div>
+                <div class="key-note">C#1</div>
+            </div>
+            <div class="key black" data-key="Digit2" data-note="D#1">
+                <div class="key-label">2</div>
+                <div class="key-note">D#1</div>
+            </div>
+            <div class="key black" data-key="Digit3" data-note="F#1">
+                <div class="key-label">3</div>
+                <div class="key-note">F#1</div>
+            </div>
+            <div class="key black" data-key="Digit4" data-note="G#1">
+                <div class="key-label">4</div>
+                <div class="key-note">G#1</div>
+            </div>
+            <div class="key black" data-key="Digit5" data-note="A#1">
+                <div class="key-label">5</div>
+                <div class="key-note">A#1</div>
+            </div>
+            <div class="key black" data-key="Digit6" data-note="C#2">
+                <div class="key-label">6</div>
+                <div class="key-note">C#2</div>
+            </div>
+            <div class="key black" data-key="Digit7" data-note="D#2">
+                <div class="key-label">7</div>
+                <div class="key-note">D#2</div>
+            </div>
+            <div class="key black" data-key="Digit8" data-note="F#2">
+                <div class="key-label">8</div>
+                <div class="key-note">F#2</div>
+            </div>
+            <div class="key black" data-key="Digit9" data-note="G#2">
+                <div class="key-label">9</div>
+                <div class="key-note">G#2</div>
+            </div>
+            <div class="key black" data-key="Digit0" data-note="A#2">
+                <div class="key-label">0</div>
+                <div class="key-note">A#2</div>
+            </div>
+            <div class="key black" data-key="Minus" data-note="C#3">
+                <div class="key-label">-</div>
+                <div class="key-note">C#3</div>
+            </div>
+            <div class="key black" data-key="Equal" data-note="D#3">
+                <div class="key-label">=</div>
+                <div class="key-note">D#3</div>
+            </div>
+            <div class="key black" data-key="BracketLeft" data-note="F#3">
+                <div class="key-label">[</div>
+                <div class="key-note">F#3</div>
+            </div>
+            <div class="key black" data-key="BracketRight" data-note="G#3">
+                <div class="key-label">]</div>
+                <div class="key-note">G#3</div>
+            </div>
+            <div class="key black" data-key="Backslash" data-note="A#3">
+                <div class="key-label">\</div>
+                <div class="key-note">A#3</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
