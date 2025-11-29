@@ -14,8 +14,9 @@ html, body {
 main {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right bottom, rgb(25,25,25), rgb(35,35,35), black);
+    /* background: linear-gradient(to right bottom, rgb(25,25,25), rgb(35,35,35), black); */
     padding: 20px;
+    background-color: black;
 }
 
 section {
@@ -24,6 +25,7 @@ section {
     background-color: black;
     margin: auto;
     border-radius: 10px;
+    max-width: 430px;
 }
 
 .all-reels {
@@ -50,13 +52,13 @@ section {
     scroll-snap-stop: always;
 }
 
-
-
-.reel img {
+.reel video {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: top;
+    /* max-height: 800px;
+    min-height: 500px; */
 }
 
 .reel .bottom {
@@ -88,11 +90,15 @@ section {
 
 .bottom .user button {
     background-color: transparent;
-    padding: 2px 4px;
+    padding: 4px 5px;
     font-size: 15px;
     font-weight: 500;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.follow:active {
+    scale: 0.95;
 }
 
 .bottom > h3 {
@@ -132,4 +138,40 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50px;
+    cursor: pointer;
+}
+
+.right > div h4 {
+    pointer-events: none;
+}
+
+.right > div p {
+    pointer-events: none;
+}
+
+.like:active{
+    scale: 0.9;
+}
+
+.mute {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mute:active {
+    scale: 0.95;
+}
+
+.mute i {
+    font-size: 20px;
+    pointer-events: none;
 }
