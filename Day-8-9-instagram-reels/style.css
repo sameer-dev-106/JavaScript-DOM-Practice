@@ -262,7 +262,7 @@ main::-webkit-scrollbar {
 }
 
 /* Desktop specific styles */
-@media (min-wight: 768px) {
+@media (min-widht: 768px) {
     .all-reels {
         border-radius: 10px;
         height: 90vh;
